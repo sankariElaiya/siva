@@ -39,66 +39,66 @@ class OUSRegistrationState extends State<OUSRegistration> {
                 ),
                 Container(
                     child: Stack(
-                  alignment: Alignment.bottomCenter,
-                  children: <Widget>[
-                    Column(
-//                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      alignment: Alignment.bottomCenter,
                       children: <Widget>[
-                        sizedBoxHeight,
-                        createAccountField,
-                        sizedBoxHeight,
-                        firstNameField,
-                        sizedBoxHeight,
-                        lastNameField,
-                        sizedBoxHeight,
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: ElevatedButton(
-                            style: elevatedButtonStyle,
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
-                          ),
-                        sizedBoxHeight,
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: ElevatedButton(
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
-                        ),
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: TextButton(
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
-                        ),
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: OutlinedButton(
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
-                        ),
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: CupertinoButton(
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
-                        ),
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          height: 50,
-                          child: CupertinoButton.filled(
-                            onPressed: () {  }, //null
-                            child: Text(Strings.BTN_TITLE_DOB),),
+                        Column(
+//                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: <Widget>[
+                            sizedBoxHeight,
+                            createAccountField,
+                            sizedBoxHeight,
+                            firstNameField,
+                            sizedBoxHeight,
+                            lastNameField,
+                            sizedBoxHeight,
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: ElevatedButton(
+                                style: elevatedButtonStyle,
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                            sizedBoxHeight,
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: ElevatedButton(
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: TextButton(
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: OutlinedButton(
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: CupertinoButton(
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2,
+                              height: 50,
+                              child: CupertinoButton.filled(
+                                onPressed: () {  }, //null
+                                child: Text(Strings.BTN_TITLE_DOB),),
+                            ),
+                          ],
                         ),
                       ],
-                    ),
-                  ],
-                )),
+                    )),
               ],
             )),
       ),

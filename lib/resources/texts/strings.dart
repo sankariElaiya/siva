@@ -48,7 +48,7 @@ class Strings {
   static const String HYPHEN = '-';
   static const String PLUS = '+';
   static const String ROLE_USR = 'User';
-  static const String CHN_IMG_PATH = 'lib/resources/images/bits.png';
+  static const String CHN_IMG_PATH = 'lib/resources/images/krce.png';
   static const String FOR = 'for';
   static const String BACK_SLASH = '/';
   static const String POST = 'POST';
@@ -102,6 +102,13 @@ class Strings {
   static const String TITLE_FORGOT_PWD_FORGOT_PWD = 'Forgot Password';
   static const String TITLE_KAI_KAINKARYAM = 'Request for Charity';
   static const String TITLE_KAI_VIEW_REQUESTS = 'View List of Requests';
+  static const String TITLE_CC_DPT = 'Department';
+  static const String TITLE_CC_UG = 'Undergraduate';
+  static const String TITLE_MM_TB_SD = 'Students';
+  static const String TITLE_MM_TB_CD = 'College';
+  static const String TITLE_MM_TB_SJ = 'Subject';
+  static const String TITLE_CC_PG = 'Postgraduate';
+  static const String TITLE_CC_PT = 'Acadamic Patnership';
   static const String TITLE_KAI_VIEW_EDIT_DELETE_PROFILE = 'View/Edit/Delete your created Profile';
   static const String TITLE_LGN_LOGIN = 'Login';
   static const String TITLE_MM_TB_MM = 'Family';
@@ -113,6 +120,7 @@ class Strings {
   static const String TITLE_MM_TB_SAS = 'Knowledge';
   static const String TITLE_MM_TB_KAI = 'Charity';
   static const String TITLE_MM_TB_DPSR = 'About Us';
+  static const String TITLE_MM_TB_CC = 'Chance';
   static const String TITLE_MM_TB_ADMOPR = 'Admin Operations';
   static const String TITLE_SAS_40_SAMSKARAM = 'Genres';
   static const String TITLE_VED_SELECT_CITY = 'Please Select the City';
